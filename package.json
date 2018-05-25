@@ -4,7 +4,7 @@
   "description": "awesome overlays",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --ignore window.json --exec \"electron .\"",
+    "test": "nodemon --ignore '*.json' --exec \"electron .\"",
     "scss": "nodemon sass.js -e scss"
   },
   "author": "",
